@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ #navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+} 
+#navbar >a {
+    /* border: 1px solid red; */
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(70px);
+    gap: 3%;
+    margin: 15px;
+}
+#coffeeImg{
+    width: 100%;
+    height: 70%;
+}
+#cBox{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+
+#add_to_bucket,#cTitle,#cPrice{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#add_to_bucket,#cPrice{
+    margin-top: 10px;
+}
+
+#cTitle,#cPrice{
+    margin-left: 40%;
+}
+#add_to_bucket{
+    border: 0px;
+    margin-left: 25%;
+    padding: 5px 10px;
+    background-color: #4294f2;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

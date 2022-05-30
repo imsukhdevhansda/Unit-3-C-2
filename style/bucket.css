@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(70px);
+    gap: 3%;
+    margin: 15px;
+}
+#coffeeImg{
+    width: 100%;
+    height: 70%;
+}
+#cBox{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+
+#remove_coffee,#cTitle,#cPrice{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#remove_coffee,#cPrice{
+    margin-top: 10px;
+}
+
+#cTitle,#cPrice{
+    margin-left: 40%;
+}
+#remove_coffee{
+    border: 0px;
+    margin-left: 33%;
+    padding: 5px 10px;
+    background-color: 
+    #ff0066;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#total_amount{
+    font-size: 25px;
+    margin: 15px;
+}
+
